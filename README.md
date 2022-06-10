@@ -1,3 +1,6 @@
+## START THE SERVER FIRST (LOCATED IN CRM_BACKEND FOLDER) THEN START THE APPLICATION (LOCATED IN CRM FOLDER). Instructions to start in the respective Folder's README.
+
+
 # Elchemy Interview Coding Exercise - Contact CRM Assignment
 
 ## What to expect?
