@@ -1,5 +1,5 @@
 {
-  "name": "electionportal",
+  "name": "crmbackend",
   "version": "1.0.0",
   "description": "",
   "main": "app.js",
@@ -8,7 +8,7 @@
     "start": "node app.js",
     "dev": "nodemon app.js"
   },
-  "author": "Manan Karani, Niyati Karani",
+  "author": "Ajinkya Naik",
   "license": "ISC",
   "dependencies": {
     "async": "^3.2.3",
