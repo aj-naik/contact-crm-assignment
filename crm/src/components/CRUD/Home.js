@@ -13,6 +13,7 @@ function Home() {
     setarray(res.data.users);
   });
   let history = useNavigate();
+  const loginEmail = localStorage.getItem("loginEmail");
 
   function setID(id, name, email, phone, address, gst, frequency) {
     localStorage.setItem("id", id);
@@ -39,7 +40,10 @@ function Home() {
 
   return (
     <>
-    <h1 className="title" style={{ paddingTop: "40px" }}>Customer Information Screen</h1>
+      <h1 className="title" style={{ paddingTop: "40px" }}>
+        Customer Information Screen
+      </h1>
+      <h4 className="title" style={{ paddingTop:"40px"}}>Welcome {loginEmail}</h4>
       <div style={{ margin: "10rem" }}>
         <Table striped bordered hover size="sm">
           <thead>
@@ -124,6 +128,11 @@ function Home() {
           <Button variant="warning" size="lg">
             Create
           </Button>
+        </Link>
+      </div>
+      <div className="logout" style={{paddingBottom:"40px"}}>
+        <Link className="d-grid gap-2" to="/">
+          <Button variant="info">Logout</Button>
         </Link>
       </div>
     </>
