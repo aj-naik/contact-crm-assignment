@@ -1,0 +1,20 @@
+@media all and (min-width: 480px) {
+  .Register {
+    padding: 60px 0;
+  }
+
+  .Register form {
+    margin: 0 auto;
+    max-width: 320px;
+  }
+  .btn-group-lg>.btn, .btn-lg {
+      margin: 1rem 1rem;
+      padding: 0.5rem 1rem;
+      font-size: 1.25rem;
+      border-radius: 0.3rem;
+  }
+
+  .title{
+    padding-bottom: 20px;
+  }
+}
